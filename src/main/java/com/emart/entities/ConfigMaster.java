@@ -29,14 +29,4 @@ public class ConfigMaster {
   @OneToMany(cascade=CascadeType.ALL)
   @JoinColumn(name="ConfigID")
   private List<ConfigDetailMaster> config_details;
-	
-	
-	
-		 
-  
-
-	
-	
-		  
-		  
-		}
+}

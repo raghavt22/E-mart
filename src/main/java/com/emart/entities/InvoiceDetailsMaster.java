@@ -25,7 +25,4 @@ public class InvoiceDetailsMaster {
 	private int invoiceID;
 	private int ProdID;
 	private String prodName;
-	
-	
-	
 }

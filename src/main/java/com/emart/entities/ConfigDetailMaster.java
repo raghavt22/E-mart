@@ -22,6 +22,4 @@ public class ConfigDetailMaster {
 	private int ConfigID;
 	private String Config_details;
 	private int ProdID;
-	
-	
 }

@@ -26,21 +26,11 @@ public class CategoryMaster {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="CATMASTER_ID")
 	private int catmasterID;
-		
 	private String categoryName;
-		
 	private boolean childflag;
-	
 	private int parentCatID;
-	
 	private String catImgPath;
-	
 	@OneToMany(cascade=CascadeType.ALL)
 	@JoinColumn(name="catmasterID")
 	private List<ProductMaster> Product;
-	
-	
-
-
-	
 }

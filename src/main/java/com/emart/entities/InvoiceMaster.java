@@ -39,8 +39,4 @@ public class InvoiceMaster {
 	@OneToMany(cascade=CascadeType.ALL)
 	@JoinColumn(name="invoiceID")
 	private List<OrderMaster> Olist;
-	
-	
-	
-
 }

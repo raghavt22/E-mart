@@ -26,7 +26,5 @@ public class CartMaster {
     private int CustID;
     private int ProdID;
     private int Qty;
-
-   
 }
 

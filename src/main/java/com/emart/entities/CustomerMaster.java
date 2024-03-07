@@ -28,19 +28,16 @@ public class CustomerMaster {
 	@Column(name = "cust_ID")
 	private int custID;
 	
-	
 	@Column(nullable = false)
 	private String custName;
 	
 	@Column(nullable = false)
 	private String custAddress;
 	
-
 	@Column(nullable = false)
 	private String custPhone;
 	
 	private String custEmail; 
-	
 	
 	@Column(nullable = false)
 	private String custPassword;
@@ -50,7 +47,6 @@ public class CustomerMaster {
 	
 	@Column(nullable = false)
 	private int points;
-	
 	
 	@OneToMany(cascade=CascadeType.ALL)
 	@JoinColumn(name="CustID")
@@ -63,9 +59,4 @@ public class CustomerMaster {
 	@OneToMany(cascade = CascadeType.ALL)
 	@JoinColumn(name = "custID")
 	private List<CartMaster> cartList;
-	
-	
-	
-	
-	
 }

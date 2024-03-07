@@ -26,8 +26,4 @@ public class OrderMaster {
 	
 	private int CustID;
 	private int invoiceID;
-	
-	
-	
-	
 }

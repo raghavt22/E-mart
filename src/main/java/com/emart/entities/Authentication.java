@@ -9,9 +9,5 @@ import lombok.RequiredArgsConstructor;
 @AllArgsConstructor
 public class Authentication {
 	private String custEmail; 
-	
 	private String custPassword;
-
-	
-	
 }
